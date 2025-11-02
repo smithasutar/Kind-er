@@ -26,22 +26,6 @@ It’s a small step toward making the internet a more positive and encouraging p
 ## 🚀 Getting Started
 CI/CD on https://kind-er.netlify.app/
 
-
-### 💻 Project Structure
-```bash
-css
-Copy code
-good-deeds-wall/
-├── public/
-│   └── index.html
-├── src/
-│   ├── App.jsx
-│   ├── App.css
-│   ├── main.jsx
-│   └── ...
-├── package.json
-└── README.md
-```
 ## 🎨 UI Preview
 A warm, welcoming app with:
 
