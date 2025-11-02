@@ -24,43 +24,8 @@ It’s a small step toward making the internet a more positive and encouraging p
 ---
 
 ## 🚀 Getting Started
+CI/CD on https://6907e0e2b44fa8212fd9069c--kind-er.netlify.app/
 
-### 1️⃣ Clone the repo
-```bash
-git clone https://github.com/your-username/good-deeds-wall.git
-cd good-deeds-wall
-```
-### 2️⃣ Install dependencies
-```bash
-bash
-Copy code
-npm install
-```
-### 3️⃣ Start the backend (if you have one)
-Make sure your backend server (Node/Express) is running and serving the /posts routes:
-```bash
-bash
-Copy code
-node server.js
-```
-It should respond to:
-
-GET http://localhost:5000/posts
-
-POST http://localhost:5000/posts
-
-### 4️⃣ Run the React 
-```bash
-bash
-Copy code
-npm run dev
-or (for Create React App)
-
-bash
-Copy code
-npm start
-```
-Then visit http://localhost:5173 (Vite) or http://localhost:3000 (CRA).
 
 ### 💻 Project Structure
 ```bash
