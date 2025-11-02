@@ -24,7 +24,7 @@ It’s a small step toward making the internet a more positive and encouraging p
 ---
 
 ## 🚀 Getting Started
-CI/CD on https://6907e0e2b44fa8212fd9069c--kind-er.netlify.app/
+CI/CD on https://kind-er.netlify.app/
 
 
 ### 💻 Project Structure
