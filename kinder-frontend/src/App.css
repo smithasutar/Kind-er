@@ -1,0 +1,144 @@
+/* Soft animated background gradient */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.app-container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Gradient animation layers */
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #ffdee9 50%, #b5fffc 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -3;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+/* Main content box */
+.content {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  border-radius: 2rem;
+  padding: 3rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  width: 90%;
+  text-align: center;
+}
+
+/* Gradient title */
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #7f5af0, #ff6ec7, #ffc400);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 2px 10px rgba(255, 255, 255, 0.3);
+  margin-bottom: 2rem;
+}
+
+/* Input area */
+.post-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.post-input {
+  width: 100%;
+  max-width: 600px;
+  border: 2px solid #c3b8ff;
+  border-radius: 3rem;
+  padding: 1.2rem 2rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+  resize: none;
+  outline: none;
+  box-shadow: 0 4px 15px rgba(150, 100, 255, 0.15);
+  transition: all 0.3s ease;
+}
+
+.post-input:focus {
+  border-color: #a78bfa;
+  box-shadow: 0 0 15px rgba(167, 139, 250, 0.4);
+}
+
+/* Button */
+.post-button {
+  background: linear-gradient(90deg, #7f5af0, #ff6ec7);
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 0.8rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(127, 90, 240, 0.3);
+}
+
+.post-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #ff6ec7, #ffc400);
+  box-shadow: 0 8px 20px rgba(255, 118, 199, 0.4);
+}
+
+/* Posts display */
+.posts {
+  margin-top: 2rem;
+}
+
+.post-card {
+  background: linear-gradient(135deg, #f8f9ff, #fff4fb);
+  border: 1px solid #e5d8ff;
+  border-radius: 1.5rem;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 8px rgba(150, 100, 255, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-3px);
+}
+
+.no-posts {
+  color: #777;
+  font-style: italic;
+  margin-top: 1rem;
+}
