@@ -24,7 +24,13 @@ It’s a small step toward making the internet a more positive and encouraging p
 ---
 
 ## 🚀 Getting Started
-CI/CD on https://kind-er.netlify.app/
+Static website and UI deployed to: https://kind-er.netlify.app/
+For database access and backend:
+1️⃣ Clone the repo
+```bash
+git clone https://github.com/your-username/good-deeds-wall.git
+cd good-deeds-wall
+```
 
 ## 🎨 UI Preview
 A warm, welcoming app with:
