@@ -31,7 +31,7 @@ For database access and backend:
 1️⃣ Clone the repo
 ```bash
 git clone https://github.com/your-username/Kind-er.git
-cd kinder-backend
+cd Kind-er/kinder-backend
 ```
 2️⃣ Install dependencies
 ```bash
