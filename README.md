@@ -28,10 +28,18 @@ Static website and UI deployed to: https://kind-er.netlify.app/
 For database access and backend:
 1️⃣ Clone the repo
 ```bash
-git clone https://github.com/your-username/good-deeds-wall.git
-cd good-deeds-wall
+git clone https://github.com/your-username/Kind-er.git
+cd kinder-backend
 ```
-
+2️⃣ Install dependencies
+```bash
+npm install
+```
+3️⃣ Start the backend (if you have one)
+Make sure your backend server (Node/Express) is running and serving the /posts routes:
+```bash
+node server.js
+```
 ## 🎨 UI Preview
 A warm, welcoming app with:
 
