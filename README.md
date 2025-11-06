@@ -37,7 +37,14 @@ cd kinder-backend
 ```bash
 npm install
 ```
-3️⃣ Start the backend (if you have one)
+3️⃣ Set up your MongoDB connection - You’ll need your own MongoDB connection string (from MongoDB Atlas).
+
+Create a .env file inside your backend folder and add:
+```bash
+MONGO_URI=your-mongodb-connection-string-here
+PORT=5000
+```
+4️⃣ Start the backend (if you have one)
 Make sure your backend server (Node/Express) is running and serving the /posts routes:
 ```bash
 node server.js
